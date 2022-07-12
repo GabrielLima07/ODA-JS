@@ -1,2 +1,2 @@
 # ODA-JS
-Objetos Digitais de Aprendizado
+Repositório destinado aos Objetos Digitais de Aprendizado do curso FAP (Formação Acelerada em Programação) da SoftexRecife.
