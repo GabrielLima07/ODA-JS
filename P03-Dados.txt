@@ -1,0 +1,15 @@
+Dados utilizados no cotidiano:
+-Pedidos de um restaurante
+ Tipo: string
+-Pontuação em atividades
+ Tipo: number
+-Temperatura do forno
+ Tipo: number
+
+Dados na internet:
+-Cotações de criptomoedas
+ Tipo: number
+-Histórico de pesquisa do usuário
+ Tipo: string
+-Produtos mais vendidos de um e-commerce
+ Tipo: string
