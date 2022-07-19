@@ -1,0 +1,44 @@
+SINGLETON
+
+O singleton se encaixa na categoria criacional dos padrões de projetos.
+Ele é usado para que exista apenas uma instância daquele objeto e um ponto de acesso global dessa instância,
+fazendo assim com que todas as outras classes tenham acesso ao seu valor.
+Assemelha-se a uma variável global, porém é mais eficiente que ela.
+
+O padrão traz consigo 3 partes essenciais:
+-Um atributo private static com a única instância de sua classe
+-Um construtor private que faz com que a única forma de instanciar essa classe seja dentro dela.
+-Um método static public para que seja possível ter o valor de sua instância em qualquer lugar.
+
+Há diferentes formas de implementação desse padrão que variam de acordo com a necessidade.
+Em um caso genérico, a mais recomendada seria a Thread Safe Singleton, usando um double locking em seu método getter.
+Nesse caso ele funcionaria de modo que só seria instanciado quando fosse necessário e evitaria acessos simultâneos.
+
+
+Vantagens:
+-É um ótimo substituto para variáveis globais.
+-De acordo com o tipo de implementação ele pode só ser instanciado na hora que for usado.
+-Permite facilmente aumentar o número de possíveis instâncias a qualquer momento.
+
+Desvantagens:
+-Traz problemas em casos de concorrência.
+-Ignora o princípio da responsabilidade única.
+-Não permite trabalhar com interfaces.
+
+Por conta de suas desvantagens vieram a tona alternativas para uso do Singleton, uma delas é o Monostate.
+
+Referências:
+-"Singleton Teoria - Padrões de Projeto - Parte 4/45". 
+  Link: https://www.youtube.com/watch?v=x9h8MgAvi_I
+
+-"Os 3 tipos de padrões de projetos que todo desenvolvedor deveria conhecer (com exemplos de código de cada um)".
+  Link: https://www.freecodecamp.org/portuguese/news/os-3-tipos-de-padroes-de-projetos-que-todo-desenvolvedor-deveria-conhecer-com-exemplos-de-codigo-de-cada-um/
+
+-"Padrão de Projeto Singleton em Java". Link: 
+  https://www.devmedia.com.br/padrao-de-projeto-singleton-em-java/26392
+
+-"Princípios SOLID: responsabilidade única e aberto/fechado.".
+  Link: https://www.dtidigital.com.br/blog/principios-solid-o-principio-da-responsabilidade-unica-e-o-principio-aberto-fechado/#:~:text=O%20princípio%20da%20responsabilidade%20única,apenas%20um%20motivo%20para%20mudar”.
+
+-"O Design Pattern que virou Vilão! Singleton na Prática + Alternativa Clean Code // Mão no Código #43"
+  Link: https://www.youtube.com/watch?v=yimeXZ1twWs
