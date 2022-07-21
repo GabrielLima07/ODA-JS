@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <style> 
+    .modif{
+    margin: 2px;
+    padding: 1%;
+    font-size: 25px;
+    width: 5%;
+    height: 1%;
+    }
+
+    .modif_input{
+    margin: 2px;
+    padding: 1%;
+    font-size: 25px;
+    width: 14%;
+    height: 1%;
+    }
+    </style>
+</head>
+<body>
+    <h1> CALCULADORA </h1>
+
+    <font size="6"> Primeiro valor </font><br />
+    <input class="modif_input" id="v1" type="number"/> 
+    <br />
+    <font size="6"> Segundo valor </font> <br />
+    <input class="modif_input" id="v2" type="number"/> 
+    <br /> <br />
+    <button class="modif" onclick="soma()" > + </button>
+    <button class="modif" onclick="dif()"> - </button> 
+    <button class="modif" onclick="mult()"> * </button> <br />
+    <button class="modif" onclick="div()">  / </button> 
+    <button class="modif" onclick="pot()"> ** </button>
+    <button class="modif" onclick="mod()">  % </button> <br />
+    <br /><br />
+    <font size="6"> Resultado: </font> <span class="modif_input" ></span>
+
+    <script src="main.js">  </script>
+
+</body>
+</html>
