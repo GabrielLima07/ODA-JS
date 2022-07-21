@@ -30,7 +30,7 @@ function mult() {                                   // multiplicação
 }
 
 function div() {                                    // divisão
-    let div = Math.floor(parseFloat(v1.value) / parseFloat(v2.value)) // o Math.floor é usada para que retorne um número inteiro
+    let div = Math.floor(parseFloat(v1.value) / parseFloat(v2.value)) // o Math.floor é usado para que retorne um número inteiro
     let res = "v1 / v2 = div"
     let sobraDiv = parseFloat(v1.value) % parseFloat(v2.value)        // resto da divisão 
     let sobra = " Sobra: x"
