@@ -1,0 +1,11 @@
+{
+  "name": "p08-funcoes",
+  "version": "1.0.0",
+  "description": "Módulo 03 JS. Desenvolvimento 08.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Vinicius Araujo de Lima",
+  "license": "ISC"
+}
