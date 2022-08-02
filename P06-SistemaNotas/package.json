@@ -1,0 +1,14 @@
+{
+  "name": "p06-sistemanotas",
+  "version": "1.0.0",
+  "description": "Módulo 03 JS. Desenvolvimento 06.",
+  "main": "Codigo1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Vinicius Araujo de Lima",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
