@@ -1,0 +1,11 @@
+{
+  "name": "p09-banco",
+  "version": "1.0.0",
+  "description": "Módulo 04 JS. Desenvolvimento 09",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Vinicius Araujo de Lima",
+  "license": "ISC"
+}
